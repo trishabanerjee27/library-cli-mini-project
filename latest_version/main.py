@@ -4,7 +4,7 @@ def main():
     library = Library()
 
     while True:
-        print("\n~~~~~~~ LIBRARY MENU ~~~~~~~~")
+        print("\n~~~~~~~~~ LIBRARY MENU ~~~~~~~~~~~")
         print("1. Add Book")
         print("2. List Books")
         print("3. Borrow Book")
@@ -34,8 +34,7 @@ def main():
             break
 
         else:
-            print("Invalid option! Try again!")
+            print("Invalid option :C Try again!")
 
 if __name__ == "__main__":
     main()
-
