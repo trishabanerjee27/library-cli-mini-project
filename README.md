@@ -78,6 +78,7 @@ pip uninstall library-cli
 
 <details>
 <summary> to run tests </summary>
+
 ```
 python -m unittest discover tests
 ```
