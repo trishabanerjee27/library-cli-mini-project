@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "isbn": "111",
+    "available": true
+  },
+  {
+    "title": "Da Vinci Code",
+    "author": "Dan Brown",
+    "isbn": "112",
+    "available": true
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "113",
+    "available": true
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "114",
+    "available": true
+  }
+]
