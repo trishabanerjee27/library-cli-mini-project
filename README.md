@@ -25,6 +25,8 @@ This repo is organized into a modular Python package:
   - `library.py` - `Library` class
   - `data/library_data.json` - persistent JSON storage
 - `main.py` - CLI entry point
+- `tests/` - Contains the unit test suite
+  - `test_library.py` - test file
 - `setup.py` - For local installation
 - `README.md` - You're here c-:
 
@@ -73,6 +75,23 @@ List books → View all with status
 ```
 pip uninstall library-cli
 ```
+
+<details>
+<summary> to run tests </summary>
+```
+python -m unittest discover tests
+```
+
+- The setUp method initializes a fresh state for every test
+
+- The tearDown method clears it afterward
+
+- The test file assumes no external file I/O — just in-memory testing
+
+- simulate exceptions (e.g., duplicate or missing ISBN) by checking return state
+</details>
+
+
 
 
 <details>
